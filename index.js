@@ -3,7 +3,7 @@ const github = require('@actions/github');
 
 const { execFile } = require('child_process');
 
-const exePath = './eplc.exe';
+const exePath = './bin/eplc.exe';
 
 var args = ['', '/o', '', '/obj', '/dll', '/set_epl_root', './bin/'];
 
