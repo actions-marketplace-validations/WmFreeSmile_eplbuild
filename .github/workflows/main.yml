@@ -11,3 +11,8 @@ jobs:
       with:
         file: ./sample/sample.e
         output: ./sample/sample.o
+    - name: upload result
+      uses: actions/upload-artifact@v4
+      with:
+        name: result
+        path: ${{ github.workspace }}/sample/sample.o
