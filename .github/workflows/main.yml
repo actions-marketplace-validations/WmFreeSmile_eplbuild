@@ -1,0 +1,13 @@
+on: 
+  workflow_dispatch:
+jobs:
+  main_job:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Action step
+      uses: ./
+      with:
+        file: ./sample/sample.e
+        output: ./sample/sample.o

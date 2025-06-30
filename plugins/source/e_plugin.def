@@ -1,4 +1,0 @@
-LIBRARY e_plugin
-
-EXPORTS
-	MacroProcessor

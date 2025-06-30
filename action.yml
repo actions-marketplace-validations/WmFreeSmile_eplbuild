@@ -1,0 +1,16 @@
+name: 'elbuild'
+author: 'WmFreeSmile'
+branding:
+  color: gray-dark
+  icon: terminal
+description: 'Compile EPL files using the command line'
+inputs:
+  file:
+    description: 'EPL source code file (*.e)'
+    required: true
+  output:
+    description: 'COFF output file name path (*.o)'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
