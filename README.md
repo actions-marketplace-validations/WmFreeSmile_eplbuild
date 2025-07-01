@@ -1,6 +1,6 @@
 # EPL 编译工具 GitHub Action
 
-这个 GitHub Action 可以帮助你在 CI/CD 流程中自动编译 EPL (Embedded Procedural Language) 源文件（`.e`）为 COFF (Common Object File Format) 目标文件（`.o`）。
+这个 GitHub Action 可以帮助你在 CI/CD 流程中自动编译 EPL (Easy Programming Language) 源文件（`.e`）为 COFF (Common Object File Format) 目标文件（`.o`）。
 
 ## 快速开始
 
