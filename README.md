@@ -12,7 +12,7 @@ steps:
     uses: actions/checkout@v3
   
   - name: Compile EPL file
-    uses: WmFreeSmile/elbuild@v1
+    uses: WmFreeSmile/eplbuild@v1
     with:
       file: src/main.e  # 你的 EPL 源文件路径
       output: build/main.o  # 输出的 COFF 文件路径
@@ -47,7 +47,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Compile EPL files
-        uses: WmFreeSmile/elbuild@v1
+        uses: WmFreeSmile/eplbuild@v1
         with:
           file: src/main.e
           output: build/main.o
@@ -63,13 +63,13 @@ jobs:
 
 这个 Action 使用 Node.js 实现，你可以根据需要修改源代码来扩展功能：
 
-1. 克隆这个仓库：`git clone https://github.com/WmFreeSmile/elbuild.git`
+1. 克隆这个仓库：`git clone https://github.com/WmFreeSmile/eplbuild.git`
 2. 修改 `index.js` 文件添加新功能
 3. 提交更改并发布新版本
 
 ## 技术支持
 
-如果你在使用过程中遇到问题，请在 GitHub 仓库中提交 Issues：[https://github.com/WmFreeSmile/elbuild/issues](https://github.com/WmFreeSmile/elbuild/issues)
+如果你在使用过程中遇到问题，请在 GitHub 仓库中提交 Issues：[https://github.com/WmFreeSmile/eplbuild/issues](https://github.com/WmFreeSmile/eplbuild/issues)
 
 ## 贡献
 
